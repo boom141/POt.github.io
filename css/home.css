@@ -402,3 +402,150 @@ nav{
         max-height: 90vh;
     }
 }
+
+/* tableet*/
+
+@media (max-width: 770px) and (min-width: 320px){
+    .first-section{ 
+        height: 45vh;
+     }
+
+    .hero-section{
+        margin-top: -3rem!important;
+     }
+
+    .nav-link span{ 
+        border: none!important;
+    }
+
+    .navbar-brand{ 
+        display: none; 
+    }
+
+    .navbar-toggler{
+        border-color: none !important;
+        padding: 0;
+        margin: 0!important;
+    }
+
+    .offcanvas{ 
+        background-color: var(--th-dark);
+    }
+
+    .offcanvas-header img {
+         height: 2rem;
+    }
+
+    .navbar-nav{
+        margin-left: 0;
+    }
+
+    .nav-link{ 
+        border: none;
+    }
+
+    .nav-link i{ 
+        margin-right: 1rem; 
+        display: inline;
+    }
+
+    .navbar-nav{ 
+        padding: 0!important; 
+    }
+
+    .nav-link:hover{ 
+        margin-left: 1rem; 
+        color: burlywood;
+        background-color: transparent;
+    }
+    
+
+    .slogan{
+        padding: 0;
+        margin-top: 2.5rem;
+        margin-left: 1.2rem;
+        width: 15rem;
+    }
+    
+    .slogan h1{
+        width: 15rem;
+        font-size: 1.8rem;
+    }
+
+    .slogan p{
+        display: none;
+    }
+
+    .quick-btns{
+        width: 15rem;
+    }
+    .socmed-links,.article-btn{
+        display: none!important;
+    }
+
+    .article-btn{
+        width: 6rem;
+        text-align: center;
+        padding: 0 1rem!important;
+        margin-top: .5rem!important;
+        font-size: 1rem !important;
+        border-radius:80px!important;
+        border: 3px solid white;
+        transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    
+    .article-btn:hover{
+        border-color: var(--th-light);
+    }
+    
+    .blog .card, 
+    .products .card,
+    .footer-btn h1{
+        display: none!important;
+    }
+    
+    .article-list,
+    .quick-links{
+        display: none!important;
+    }
+
+
+    .article-section h2{
+        width: 100%;
+    }
+
+    .article-section{
+        padding: 0 3rem;
+    }
+
+    .local-pottery .col-sm-9, .current-article{
+        padding: 1rem 1rem!important;
+    }
+
+    .local-pottery{
+        margin-top: 4rem!important;
+    }
+
+    .current-article h1, .local-pottery h1{
+        width: 13rem;
+        font-size: 1rem;
+    }
+    
+    .current-article p, .local-pottery p{
+        width: 13rem;
+        font-size: .6rem;
+    }
+    
+    .email{
+        width: 100%;
+    }
+
+    .mobile-btn{
+        display: block;
+    }
+
+    
+    .footer .row{
+        max-height: 90vh;
+    }
+}
