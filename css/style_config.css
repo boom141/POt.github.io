@@ -1,0 +1,36 @@
+
+/* configuration stylesheet for webapplication */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+
+:root{
+    /* color palette */
+    --th-dark: #40513B;
+    --th-light: #609966;
+    --th-mute:  #9DC08B;
+
+    /* fonts */
+    --th-rubik: 'Rubik', sans-serif;
+    --th-righteous: 'Righteous', cursive;
+}
+
+/* config text color*/
+
+.text-th-dark{ color: var(--th-dark)!important;}
+.text-th-light{ color: var(--th-light)!important;}
+.text-th-mute{ color: var(--th-mute)!important;}
+.text-th-white{ color: white!important;}
+.text-th-black{ color: rgb(0, 0, 0)!important;}
+
+/* config text font */
+
+.text-f-rubik {font-family: var(--th-rubik)!important;}
+.text-f-righteous {font-family: var(--th-righteous)!important;}
+
+/* config background color */
+
+.bg-th-dark{ background-color: var(--th-dark)!important; background: var(--th-dark)!important;}
+.bg-th-light{ background-color: var(--th-light)!important; background: var(--th-light)!important;}
+.bg-th-mute{ background-color: var(--th-mute)!important; background: var(--th-mute)!important;}
+.bg-th-transparent{ background-color: rgb(0, 0, 0, 0)!important; background: rgb(0, 0, 0, 0)!important;}
+
